@@ -17,7 +17,7 @@ public class MarkLogicForestPartitions {
         ArrayList<MarkLogicPartition> parts = forestParts.getOrDefault(forestName, null);
         if(parts == null){
             //forest encountered for the first time
-            parts = new ArrayList<MarkLogicPartition>();
+            parts = new ArrayList<>();
             forestParts.put(forestName, parts);
         }
         parts.add(part);

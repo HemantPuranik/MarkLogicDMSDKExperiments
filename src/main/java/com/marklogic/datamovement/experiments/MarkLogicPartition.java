@@ -70,11 +70,11 @@ public class MarkLogicPartition implements Serializable {
 
     public void print(){
         System.out.println("****Partition - " + this.getIndex() + " Start****");
-        System.out.println("Database = " + this.getDatabase());
-        System.out.println("Host = " + this.getHost());
-        System.out.println("Port = " + this.getPort());
-        System.out.println("Forest = " + this.getForest());
-        System.out.println("URI Count = " + this.getUris().length);
+        System.out.println("    Database = " + this.getDatabase());
+        System.out.println("    Host = " + this.getHost());
+        System.out.println("    Port = " + this.getPort());
+        System.out.println("    Forest = " + this.getForest());
+        System.out.println("    URI Count = " + this.getUris().length);
         System.out.println("****Partition - " + this.getIndex() + " End****");
     }
 }
